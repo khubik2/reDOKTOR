@@ -52,10 +52,10 @@
 | -------- | :---------: | --------------------------------------------------- |
 | bMovable |    DWORD    | Can this entity be moved?                           |
 | iPos     |  DWORD\[2]  | (X,Y) positions                                     |
-| iEntID_qm|    DWORD    | Actual entity ID?                                   |
-| iData4   |    DWORD    | IDK                                                 |
+| iEntID   |    DWORD    | Actual entity ID                                    |
+| iData4   |    DWORD    | Doesn't do shit                                     |
 | iLockNum |    DWORD    | IDK, but appears to be number of the lock           |
-| iData6   |    DWORD    | IDK                                                 |
+| bFadeout |    DWORD    | If not 0, disable fadeout on goal                   |
 | nLen     |    DWORD    | Length of the texture name                          |
 | sTexture | char\[nLen] | Texture name, GAME DOESN\`T RENDER ALL OF THEM HERE |
 
