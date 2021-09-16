@@ -54,7 +54,7 @@
 | iPos     |  DWORD\[2]  | (X,Y) positions                                     |
 | iEntID   |    DWORD    | Actual entity ID                                    |
 | iData4   |    DWORD    | Doesn't do shit                                     |
-| iLockNum |    DWORD    | IDK, but appears to be number of the lock           |
+| iLockNum |    DWORD    | Lock ID. Must be the same on key and lock           |
 | bFadeout |    DWORD    | If not 0, disable fadeout on goal                   |
 | nLen     |    DWORD    | Length of the texture name                          |
 | sTexture | char\[nLen] | Texture name, GAME DOESN\`T RENDER ALL OF THEM HERE |
