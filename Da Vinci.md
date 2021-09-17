@@ -42,7 +42,8 @@
 
 | Name  |    Type     | Description                        |
 | ----- | :---------: | ---------------------------------- |
-| _     | char\[4*2]  | Padding                            |
+| bGoal |    DWORD    | Level goal (0 = keys, 1 = picture) |
+| -     |    DWORD    | Padding                            |
 | nEnts |    DWORD    | Ammount of entities in the cluster |
 | aEnts | Ent\[nEnts] | Actual entities                    |
 
